@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.hero.small {
+  padding: 50px 20px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+/* GRID IMAGES */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+.hero-image {
+  height: 80vh;
+  background-image: url("dogsintro.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+/* Dark overlay so text is readable */
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.overlay p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* Background image hero */
+.hero-image {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+/* Smaller version for contribute page */
+.small-hero {
+  height: 50vh;
+  background-image: url("contributecats.jpg");
+}
+
+/* Overlay for readability */
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.text-box {
+  background: rgb(125, 125, 125);          /* white box (you can change color) */
+  padding: 25px 40px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
